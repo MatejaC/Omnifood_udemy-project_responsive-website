@@ -597,7 +597,7 @@ footer {
 
 .footer-nav li a:hover,
 .footer-nav li a:active {
-	color: #ddd;
+	color: rgb(202, 202, 202);
 }
 
 .social-links li a:link,
