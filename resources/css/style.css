@@ -79,7 +79,7 @@ h2 {
 
 h3 {
 	font-size: 110%;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 h2:after {
@@ -94,19 +94,19 @@ h2:after {
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
-	line-height: 145%;
+	line-height: 140%;
 	width: 70%;
 	margin-left: 15%;
 }
 
 .box p {
-	font-size: 90%;
-	line-height: 145%;
+	font-size: 80%;
+	line-height: 125%;
 }
 
 /* ----- ICONS ----- */
 .icon-big {
-	font-size: 350%;
+	font-size: 300%;
 	display: block;
 	color: #e67e22;
 	margin-bottom: 10px;
@@ -195,8 +195,8 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -257,6 +257,19 @@ header {
 	border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile navi */
+.mobile-nav-icon {
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+.mobile-nav-icon i {
+	font-size: 200%;
+	color: #fff;
+}
+
 /* Sticky navi */
 .sticky {
 	position: fixed;
@@ -291,7 +304,7 @@ header {
 /* ----------------------------------------------- */
 
 .section-features .long-copy {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 /* ----------------------------------------------- */
