@@ -365,15 +365,23 @@
 
         <div class="row">
             <form method="post" action="mailer-new.php" class="contact-form">
+
                 <div class="row">
 
-                    <div class="form-mesagges success">
-                        Thank you! Your message has been sent.
-                    </div>
+                    <?php
+                    if(&_GET['success'] == 1) {
+                      echo "<div class="\form-mesagges success\">Thank you! Your message has been sent.</div>";
+                    }
 
-                    <!-- <div class="form-mesagges error">
-                        Ooops! Something wen't wrong. Please try again.
-                    </div> -->
+                     if(&_GET['success'] == -1) {
+                      echo "<div class="\form-mesagges error\">Ooops! Something wen't wrong. Please try again.</div>";
+                    }
+
+                    ?>
+
+   ¸¸¸¸¸¸¸¸¸¸¸¸¸</div>
+
+                 <div class="row">
 
                     <div class="col span-1-of-3">
                         <label for="name">Name</label>
